@@ -1,0 +1,26 @@
+{
+  "name": "fallout-example-app",
+  "version": "1.0.5",
+  "description": "An example app for the Zapier platform.",
+  "repository": "bcooksey/zapier-fallout-cli-app",
+  "homepage": "https://github.com/",
+  "author": "Brian Cooksey",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --recursive"
+  },
+  "engines": {
+    "node": ">=8.10.0",
+    "npm": ">=2.0.0"
+  },
+  "dependencies": {
+    "lodash": "4.17.10",
+    "zapier-platform-core": "7.4.0"
+  },
+  "devDependencies": {
+    "babel": "6.5.2",
+    "babel-eslint": "6.1.2",
+    "mocha": "5.2.0",
+    "should": "11.2.1"
+  }
+}
